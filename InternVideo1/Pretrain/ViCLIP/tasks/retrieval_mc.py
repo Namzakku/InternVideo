@@ -12,10 +12,10 @@ from models.utils import tile
 from models.vindlu import VindLU
 from models.vindlu_vit import VindLU_VIT
 from tasks.shared_utils import setup_model
-from utils.basic_utils import (MetricLogger, flat_list_of_lists, save_json,
+from videoutils.basic_utils import (MetricLogger, flat_list_of_lists, save_json,
                                setup_seed)
-from utils.config_utils import setup_main
-from utils.distributed import get_rank
+from videoutils.config_utils import setup_main
+from videoutils.distributed import get_rank
 
 logger = logging.getLogger(__name__)
 

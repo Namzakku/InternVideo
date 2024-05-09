@@ -13,8 +13,8 @@ import itertools
 import torch
 import torch.distributed as dist
 
-from utils.basic_utils import MetricLogger
-from utils.distributed import is_main_process
+from videoutils.basic_utils import MetricLogger
+from videoutils.distributed import is_main_process
 
 logger = logging.getLogger(__name__)
 

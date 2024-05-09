@@ -6,7 +6,7 @@ import itertools
 import torch
 import torch.distributed as dist
 
-from utils.basic_utils import MetricLogger
+from videoutils.basic_utils import MetricLogger
 
 from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
 from pycocoevalcap.bleu.bleu import Bleu
@@ -15,7 +15,7 @@ from pycocoevalcap.meteor.meteor import Meteor
 from pycocoevalcap.rouge.rouge import Rouge
 from pycocoevalcap.spice.spice import Spice
 
-from utils.basic_utils import MetricLogger
+from videoutils.basic_utils import MetricLogger
 
 logger = logging.getLogger(__name__)
 

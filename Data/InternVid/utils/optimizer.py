@@ -4,7 +4,7 @@ Hacked together by / Copyright 2020 Ross Wightman
 import re
 import torch
 from torch import optim as optim
-from utils.distributed import is_main_process
+from videoutils.distributed import is_main_process
 import logging
 logger = logging.getLogger(__name__)
 try:

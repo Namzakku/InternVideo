@@ -8,8 +8,8 @@ import torch
 import deepspeed
 from torch.utils.data import ConcatDataset, DataLoader
 
-from utils.optimizer import create_optimizer
-from utils.scheduler import create_scheduler
+from videoutils.optimizer import create_optimizer
+from videoutils.scheduler import create_scheduler
 
 logger = logging.getLogger(__name__)
 

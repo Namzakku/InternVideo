@@ -5,9 +5,9 @@ import json
 import torch.distributed as dist
 from os.path import dirname, join
 
-from utils.config import Config
-from utils.distributed import init_distributed_mode, is_main_process
-from utils.logger import setup_logger
+from videoutils.config import Config
+from videoutils.distributed import init_distributed_mode, is_main_process
+from videoutils.logger import setup_logger
 
 logger = logging.getLogger(__name__)
 

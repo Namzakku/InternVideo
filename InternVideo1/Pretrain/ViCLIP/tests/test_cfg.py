@@ -1,4 +1,4 @@
-from utils.config import Config
+from videoutils.config import Config
 
 cfg = Config.get_config()
 

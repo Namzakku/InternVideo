@@ -15,10 +15,10 @@ from dataset import MetaLoader_rs, create_dataset, create_loader, create_sampler
 from models import *
 from tasks_clip.retrieval_utils import evaluation_wrapper
 from tasks_clip.shared_utils import get_media_types, setup_model
-from utils.basic_utils import MetricLogger, SmoothedValue, setup_seed
-from utils.config_utils import setup_main
-from utils.distributed import get_rank, is_main_process
-from utils.logger import log_dict_to_wandb, setup_wandb
+from videoutils.basic_utils import MetricLogger, SmoothedValue, setup_seed
+from videoutils.config_utils import setup_main
+from videoutils.distributed import get_rank, is_main_process
+from videoutils.logger import log_dict_to_wandb, setup_wandb
 
 logger = logging.getLogger(__name__)
 

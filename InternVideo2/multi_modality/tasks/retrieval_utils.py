@@ -9,8 +9,8 @@ import torch.nn.functional as F
 from einops import rearrange
 
 from models.criterions import get_sim
-from utils.basic_utils import MetricLogger
-from utils.distributed import get_rank, get_world_size
+from videoutils.basic_utils import MetricLogger
+from videoutils.distributed import get_rank, get_world_size
 
 logger = logging.getLogger(__name__)
 

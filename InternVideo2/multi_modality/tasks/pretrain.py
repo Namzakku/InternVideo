@@ -14,11 +14,11 @@ from dataset import MetaLoader, MetaLoader_rs2, create_dataset, create_loader, c
 from models import *
 from tasks.retrieval_utils import evaluation_wrapper
 from tasks.shared_utils import get_media_types, setup_model
-from utils.basic_utils import (MetricLogger, SmoothedValue,
+from videoutils.basic_utils import (MetricLogger, SmoothedValue,
                                remove_files_if_exist, setup_seed)
-from utils.config_utils import setup_main
-from utils.distributed import get_rank, get_world_size, is_main_process
-from utils.logger import log_dict_to_wandb, setup_wandb
+from videoutils.config_utils import setup_main
+from videoutils.distributed import get_rank, get_world_size, is_main_process
+from videoutils.logger import log_dict_to_wandb, setup_wandb
 try:
     from petrel_client.client import Client
 except:
