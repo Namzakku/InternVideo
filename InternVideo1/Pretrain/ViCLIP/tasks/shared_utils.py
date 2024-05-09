@@ -12,9 +12,9 @@ from torch.utils.data import ConcatDataset, DataLoader
 
 from models.backbones.clip.clip_vision import interpolate_pos_embed_vit
 from models.backbones.bert.tokenization_bert import BertTokenizer
-from utils.optimizer import create_optimizer
-from utils.scheduler import create_scheduler
-from utils.distributed import get_world_size
+from videoutils.optimizer import create_optimizer
+from videoutils.scheduler import create_scheduler
+from videoutils.distributed import get_world_size
 
 import deepspeed
 

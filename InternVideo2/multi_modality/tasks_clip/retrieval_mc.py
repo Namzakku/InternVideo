@@ -18,11 +18,11 @@ from dataset import MetaLoader, create_dataset, create_loader, create_sampler
 from models.utils import tile
 from models import *
 from tasks_clip.shared_utils import get_media_types, setup_model
-from utils.basic_utils import MetricLogger, SmoothedValue, setup_seed, flat_list_of_lists, save_json
-from utils.config import Config
-from utils.config_utils import setup_main
-from utils.distributed import get_rank, get_world_size, is_main_process
-from utils.logger import log_dict_to_wandb, setup_wandb
+from videoutils.basic_utils import MetricLogger, SmoothedValue, setup_seed, flat_list_of_lists, save_json
+from videoutils.config import Config
+from videoutils.config_utils import setup_main
+from videoutils.distributed import get_rank, get_world_size, is_main_process
+from videoutils.logger import log_dict_to_wandb, setup_wandb
 
 logger = logging.getLogger(__name__)
 

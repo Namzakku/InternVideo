@@ -19,11 +19,11 @@ from models.vindlu_blip_qformer import VindLU_BLIP_QFormer
 from tasks.pretrain import setup_dataloaders
 from tasks.retrieval_utils import evaluation_wrapper
 from tasks.shared_utils import setup_model
-from utils.basic_utils import MetricLogger, SmoothedValue, setup_seed
-from utils.config import Config
-from utils.config_utils import setup_main
-from utils.distributed import get_rank, is_main_process
-from utils.logger import log_dict_to_wandb, setup_wandb
+from videoutils.basic_utils import MetricLogger, SmoothedValue, setup_seed
+from videoutils.config import Config
+from videoutils.config_utils import setup_main
+from videoutils.distributed import get_rank, is_main_process
+from videoutils.logger import log_dict_to_wandb, setup_wandb
 
 logger = logging.getLogger(__name__)
 

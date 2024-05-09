@@ -12,7 +12,7 @@ from dataset.base_dataset import ImageVideoBaseDataset
 from dataset.text_prompt import kinetics_templates, imagenet_templates
 from dataset.utils import load_anno, pre_text
 from dataset.video_utils import VIDEO_READER_FUNCS
-from utils.distributed import is_main_process
+from videoutils.distributed import is_main_process
 
 from dataset.serialize import get_local_rank, TorchShmSerializedList
 

@@ -20,12 +20,12 @@ from models.vindlu_vit_qa import VindLU_VIT_QA
 from models.vindlu_blip_T5 import VindLU_BLIP_T5
 from tasks.shared_utils import setup_model
 from tasks.vqa_utils import eval_qa_acc
-from utils.basic_utils import (MetricLogger, SmoothedValue, save_json,
+from videoutils.basic_utils import (MetricLogger, SmoothedValue, save_json,
                                setup_seed)
-from utils.config import Config
-from utils.config_utils import setup_main
-from utils.distributed import get_rank, get_world_size, is_main_process
-from utils.logger import log_dict_to_wandb, setup_wandb
+from videoutils.config import Config
+from videoutils.config_utils import setup_main
+from videoutils.distributed import get_rank, get_world_size, is_main_process
+from videoutils.logger import log_dict_to_wandb, setup_wandb
 
 logger = logging.getLogger(__name__)
 
